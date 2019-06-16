@@ -1,0 +1,11 @@
+.course-live-user {
+  width: 100%;
+  height: 100%;
+  padding: 1em 1em 0.5em 1em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.student-info-name {
+    flex-grow: 1;
+}

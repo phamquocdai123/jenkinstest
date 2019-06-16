@@ -1,0 +1,95 @@
+.course-live-ques {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 1em 1em 0.5em 1em;
+	overflow-y: scroll;
+}
+
+.course-live-ques-list,
+.course-live-ques-board {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.course-live-ques-list {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+}
+
+.course-live-ques-board{
+	margin-top: 0.5em;
+}
+
+.ques-list-btn {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.course-live-ques-board {
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	flex: 3;
+}
+
+.ques-board-config {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ques-board-config-countdow,
+.ques-board-config-type {
+	display: flex;
+	/* flex: 1; */
+}
+
+.ques-board-config-countdow {
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.live-ques-answer-col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-ques-answer-col div{
+    margin: 0.75em;
+}
+
+.survey-color{
+	color: #FF7062;
+}
+
+@media (max-width: 575.98px) {
+	.course-live-ques {
+		flex-wrap: wrap;
+	}
+
+	.course-live-ques-list {
+		flex: unset;
+	}
+
+	.course-live-ques-board {
+		flex: unset;
+	}
+
+	.ques-board-config {
+        /* flex-direction: column; */
+        flex-wrap: nowrap;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}

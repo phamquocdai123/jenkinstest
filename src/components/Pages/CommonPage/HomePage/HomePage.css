@@ -1,0 +1,266 @@
+/* CSS home-page */
+.hw-homepage {
+	/* padding-top: 5em; */
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+/* CSS home-page top */
+.hw-homepage-top {
+	padding-top: 3em;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-image: url("../../../../assets/images/pic/homepage.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hw-homepage-top div {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.hw-homepage-top-ele img {
+	width: 100%;
+	height: 100%;
+}
+
+.hw-homepage-top-more {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hw-homepage-top-more-btn {
+	font-weight: bold !important;
+	margin-left: 0.5em !important;
+	margin-right: 0.5em !important;
+	color: white !important;
+}
+
+/* CSS home-page body */
+.hw-homepage-body {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* CSS home-page body title */
+.hw-homepage-body-title {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* CSS home-page body icon */
+.hw-homepage-body-ico {
+	flex-wrap: wrap;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.hw-homepage-body-ico-edu,
+.hw-homepage-body-ico-stream,
+.hw-homepage-body-ico-exam,
+.hw-homepage-body-ico-time {
+	width: 100%;
+	max-width: 300px;
+}
+
+.hw-homepage-body-ico-edu,
+.hw-homepage-body-ico-stream,
+.hw-homepage-body-ico-exam {
+	margin: 1em;
+}
+
+.homepage-ico {
+	width: 100px;
+	height: 100px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+/* CSS home-page body quality */
+.hw-homepage-body-quality {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.hw-homepage-body-quality-cus {
+	width: 100%;
+	background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#414345,
+		#232526
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+/* CSS home-page body quality custom */
+.homepage-body-quality-cus-title {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	color: #f9c953;
+}
+.homepage-banner {
+	max-width: 700px;
+	height: auto;
+	margin-bottom: -4em;
+	z-index: 1;
+	text-align: center;
+}
+.homepage-banner img {
+	width: 100%;
+	height: auto;
+}
+.carousel-pre,
+.carousel-next {
+	flex: 1;
+	color: white;
+}
+.carousel-pre svg:hover,
+.carousel-next svg:hover {
+	color: #f9c953;
+}
+.carousel-items-detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	transition: fadeInLeftBig;
+}
+.carousel-items-detail-avatar {
+	width: 90px;
+	height: 90px;
+}
+.quality-carousel-custom {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-top: 1em;
+}
+.quality-idicator {
+	width: 6px;
+	height: 6px;
+	border-radius: 100%;
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+	background: white;
+}
+.quality-idicator-active {
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+	background: #f9c953;
+}
+/* CSS home-page body course */
+.hw-homepage-body-course {
+	width: 100%;
+	margin-top: 1em;
+}
+.hw-homepage-body-course-title,
+.hw-homepage-body-employee-title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 4em;
+}
+.hw-homepage-body-employee-title * {
+	z-index: 4;
+}
+.hw-divider * {
+	z-index: 4;
+}
+.hw-item-slide {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+/*  */
+.hw-homepage-body-employee {
+	width: 100%;
+	background: url("http://codestar.xyz/demo/education/assets/images/teachers-bg.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+.hw-homepage-body-employee:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #1e283c;
+	opacity: 0.9;
+}
+.hw-homepage-body-employee-list {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.hw-homepage-body-employee-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	z-index: 4;
+}
+.hw-homepage-body-employee-img {
+	width: 300px;
+	height: auto;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	/* border: 1px solid rgba(0, 0, 0, 0.151); */
+	border-bottom: 0px;
+}
+.hw-homepage-body-employee-info {
+	width: 300px;
+}
+.employee-info-detail {
+	padding: 10px 10px 15px;
+	text-align: center;
+	border-top: 0;
+	box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+	color: white;
+}
+.employee-info-contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+	background: linear-gradient(to right, #027c76 0%, #02bf99 70%);
+	/* border: 1px solid white; */
+	border-top: 0px;
+}
+.employee-info-contact-ico {
+	margin: 0.5em;
+}

@@ -1,0 +1,7 @@
+.user-info-content{
+    margin-top: 0.5em;
+}
+
+::-webkit-scrollbar {
+	display: none!important;
+}

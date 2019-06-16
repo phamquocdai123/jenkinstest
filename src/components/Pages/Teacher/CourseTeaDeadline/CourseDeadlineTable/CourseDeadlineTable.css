@@ -1,0 +1,12 @@
+.deadline-descripe {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 60px;
+}
+
+.description-popever{
+  padding: 1em;
+  width: 300px;
+  height: 250px;
+}

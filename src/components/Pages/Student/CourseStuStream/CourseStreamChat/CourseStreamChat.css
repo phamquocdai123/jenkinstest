@@ -1,0 +1,48 @@
+.course-stream-chat {
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.stream-chat-box {
+    height: calc(100% - 3em - 72px);
+    /* max-height: calc(720px - 3em - 72px); */
+	padding-top: 0.5em;
+	white-space: pre-wrap;
+	word-break: break-all;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.stream-chat-input {
+	padding-top: 0.5em;
+	height: 3em;
+}
+
+.stream-chat-input-btn {
+	font-size: 1em;
+	color: #ffc107;
+}
+
+.stream-chat-box::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.stream-chat-box::-webkit-scrollbar {
+	width: 5px;
+	background-color: #f5f5f5;
+}
+
+.stream-chat-box::-webkit-scrollbar-thumb {
+	background: #fdc830; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f37335, #fdc830); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#f37335,
+		#fdc830
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 10px;
+}
+

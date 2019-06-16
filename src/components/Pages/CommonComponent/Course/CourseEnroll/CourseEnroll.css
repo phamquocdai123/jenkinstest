@@ -1,0 +1,31 @@
+.course-enroll-header{
+    width: 100%;
+    height: 100%;
+    background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#414345,
+		#232526
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 2em;
+    padding: 2em;
+}
+
+.course-enroll-header-img{
+}
+
+.course-enroll-header-img img{
+    width: 100%;
+    height: 95%;
+	border-radius: 4px;
+}
+
+.course-enroll-header-info{
+    font-weight: bold;
+}
+
+.hw-star-rating-custom{
+    display: flex;
+    flex-direction: row;
+}

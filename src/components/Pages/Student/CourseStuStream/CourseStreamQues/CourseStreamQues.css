@@ -1,0 +1,19 @@
+.stream-ques-title{
+    margin-top: 1.5em;
+}
+
+.stream-ques-answer-col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stream-ques-answer-col div{
+    margin: 0.75em;
+}
+
+.stream-ques-countdown{
+    padding-top: 1em;   
+}

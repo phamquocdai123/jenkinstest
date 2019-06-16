@@ -1,0 +1,42 @@
+.hw-header-title{
+	flex-grow: 1;
+}
+
+.hw-header-title-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 350px;
+	background-image: url("../../../assets/images/pic/hw-header-title.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hw-overlay:before {
+	position: absolute;
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 0;
+	background-color: rgba(0, 0, 0, 0.493);
+}
+
+.hw-header-title-page {
+	color: white !important;
+	z-index: 1;
+}
+
+.hw-header-button {
+	display: flex;
+	z-index: 1;
+}
+
+.hw-header-button button {
+	outline: 0;
+}

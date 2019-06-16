@@ -1,0 +1,20 @@
+.course-student-deadline {
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.loading-custom{
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	padding-bottom: 0.5em;
+}
+
+.student-deadline-item{
+	height: 400px;
+	overflow-y: scroll;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}

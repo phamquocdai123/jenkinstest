@@ -1,0 +1,80 @@
+.hw-header {
+}
+
+.hw-header-navbar {
+	-webkit-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+}
+
+.hw-header-logo {
+	font-size: 5em;
+	font-weight: bold;
+	flex: 1;
+}
+
+.hw-header-menu span {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif !important;
+}
+
+.hw-header-menu span:hover {
+	color: #FF7062!important;
+}
+
+.hw-header-menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.hw-header-menu a:hover{
+	color: #FF7062;
+}
+
+.hw-header-unauthen {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.hw-header-authen {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.hw-header-authen-content {
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, 0.212);
+	border: 2px solid rgba(255, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 0.25em 0.5em;
+}
+
+.hw-header-unauthen-login,
+.hw-header-unauthen-register {
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+.hw-header-unauthen-login-btn,
+.hw-header-unauthen-register-btn {
+	font-weight: bold !important;
+}
+
+.hw-header-unauthen-register-btn {
+	background: transparent !important;
+	border: 1px solid black !important;
+}
+
+.hw-header-authen-name,
+.hw-header-authen-icon {
+	font-weight: bold;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	color: rgba(255, 0, 0, 0.5);
+}

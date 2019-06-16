@@ -1,0 +1,45 @@
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+.hw-gradient-color {
+	background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hw-center-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.hw-center-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hw-color-white {
+	color: white;
+}
+
+.hw-color-main {
+	color: #f9c953;
+}
+
+.hw-bg-color {
+	background-color: #f9c953;
+}
+
+.hw-divider{
+	display: flex;
+	justify-content: center;
+}¥
+.hw-divider img{
+	width: fit-content;
+}

@@ -1,0 +1,9 @@
+.hw-chat-item {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.hw-chat-item-content{
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}

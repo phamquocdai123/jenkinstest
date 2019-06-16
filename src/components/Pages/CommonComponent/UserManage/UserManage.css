@@ -1,0 +1,22 @@
+.user-manage-btn {
+  margin-top: 0.5em;
+}
+
+.user-manage-course-item {
+  width: 100%;
+  padding: 0.25em 1em;
+}
+
+.course-manage-row-1 {
+  margin-bottom: 0.5em;
+}
+
+.course-manage-ico {
+  width: 25px;
+  height: 25px;
+}
+
+.hw-star-rating-custom {
+  justify-content: unset;
+  flex: none !important;
+}

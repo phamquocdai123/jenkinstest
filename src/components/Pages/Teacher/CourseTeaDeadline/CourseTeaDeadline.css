@@ -1,0 +1,22 @@
+.course-teacher-deadline {
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.deadline-finish-item{
+	margin-bottom: 0.75em;
+}
+
+.deadline-title{
+	width: 100%;
+	flex: 1;
+}
+
+.deadline-ico{
+	width: 35px;
+	height: 35px;
+	margin: 0 0.5em;
+}

@@ -1,0 +1,14 @@
+.course-step-custom{
+    display: flex;
+    justify-content: center;
+}
+
+.course-step-custom div{
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+.course-step-3{
+    height: 200px;
+    overflow-y: scroll;
+}

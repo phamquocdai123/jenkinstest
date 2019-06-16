@@ -1,0 +1,10 @@
+.notice-snackbar {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}
+
+.notice-snackbar span {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
